@@ -1,0 +1,116 @@
+/* Colors generated using https://coolors.co/7bdff2-b2f7ef-eff7f6-f7d6e0-f2b5d4 */
+
+:root {
+    /* Light blue */
+    --color-1--hue: 190;
+    --color-1--saturation: 82%;
+    --color-1--light: 72%;
+    /* Mint Green */
+    --color-2--hue: 173;
+    --color-2--saturation: 81%;
+    --color-2--light: 83%;
+    /* Blueish white */
+    --color-3--hue: 173;
+    --color-3--saturation: 33%;
+    --color-3--light: 95%;
+    /* Celadon */
+    --color-4--hue: 342;
+    --color-4--saturation: 67%;
+    --color-4--light: 90%;
+    /* Honey Yellow */
+    --color-5--hue: 330;
+    --color-5--saturation: 70%;
+    --color-5--light: 83%;
+    /*  */
+    --light-variant-difference: 10%;
+    /*  */
+    --color-1: hsl( var(--color-1--hue), var(--color-1--saturation), var(--color-1--light));
+    --color-1-light: hsl( var(--color-1--hue), var(--color-1--saturation), calc(var(--color-1--light) + var(--light-variant-difference)));
+    --color-1-dark: hsl( var(--color-1--hue), var(--color-1--saturation), calc(var(--color-1--light) - var(--light-variant-difference)));
+    --color-2: hsl( var(--color-2--hue), var(--color-2--saturation), var(--color-2--light));
+    --color-2-light: hsl( var(--color-2--hue), var(--color-2--saturation), calc(var(--color-2--light) + var(--light-variant-difference)));
+    --color-2-dark: hsl( var(--color-2--hue), var(--color-2--saturation), calc(var(--color-2--light) - var(--light-variant-difference)));
+    --color-3: hsl( var(--color-3--hue), var(--color-3--saturation), var(--color-3--light));
+    --color-3-light: hsl( var(--color-3--hue), var(--color-3--saturation), calc(var(--color-3--light) + var(--light-variant-difference)));
+    --color-3-dark: hsl( var(--color-3--hue), var(--color-3--saturation), calc(var(--color-3--light) - var(--light-variant-difference)));
+    --color-4: hsl( var(--color-4--hue), var(--color-4--saturation), var(--color-4--light));
+    --color-4-light: hsl( var(--color-4--hue), var(--color-4--saturation), calc(var(--color-4--light) + var(--light-variant-difference)));
+    --color-4-dark: hsl( var(--color-4--hue), var(--color-4--saturation), calc(var(--color-4--light) - var(--light-variant-difference)));
+    --color-5: hsl( var(--color-5--hue), var(--color-5--saturation), var(--color-5--light));
+    --color-5-light: hsl( var(--color-5--hue), var(--color-5--saturation), calc(var(--color-5--light) + var(--light-variant-difference)));
+    --color-5-dark: hsl( var(--color-5--hue), var(--color-5--saturation), calc(var(--color-5--light) - var(--light-variant-difference)));
+    /* For ease of use. */
+    --color-text: var(--color-5);
+    --color-text-light: var(--color-1-dark);
+    --color-text-dark: var(--color-5-dark);
+}
+
+html {
+    color: var(--color-text-dark);
+}
+
+body {
+    background-color: var(--color-4-light);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--color-text);
+}
+
+a {
+    color: inherit;
+}
+
+
+/* header  */
+
+header h1 {
+    color: var(--color-1);
+}
+
+header nav a {
+    color: var(--color-1-dark);
+}
+
+header nav li {
+    background-color: var(--color-5-light);
+}
+
+header nav li:hover a,
+header nav li:focus a {
+    color: var(--color-5-light);
+}
+
+header nav li:hover,
+header nav li:focus {
+    background-color: var(--color-1-dark);
+}
+
+
+/* main */
+
+main a {
+    color: var(--color-1-dark);
+}
+
+main a:hover,
+main a:focus {
+    color: var(--color-2-dark);
+}
+
+
+/* footer */
+
+footer a {
+    color: var(--color-1);
+}
+
+footer a:hover,
+footer a:focus {
+    color: var(--color-1-dark);
+}

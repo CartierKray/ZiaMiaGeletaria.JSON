@@ -1,0 +1,52 @@
+/* https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+
+/* Default margins */
+
+html,
+body,
+header,
+footer,
+main,
+section,
+nav,
+div,
+p,
+img,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+
+/* https://css-tricks.com/the-focus-visible-trick/ */
+
+:focus:not(:focus-visible) {
+    outline: none;
+}

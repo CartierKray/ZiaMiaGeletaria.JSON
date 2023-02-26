@@ -1,0 +1,59 @@
+{
+  "flavours": [
+    {
+      "name": "vanilla",
+      "price": 1,
+      "id": 1
+    },
+    {
+      "name": "chocolate",
+      "price": 1.8,
+      "id": 2
+    },
+    {
+      "name": "banana",
+      "price": 1.5,
+      "id": 3
+    }
+  ],
+  "customers": [
+    {
+      "name": "Isabella Beeton",
+      "email": "isabella@example.com",
+      "id": 1
+    },
+    {
+      "name": "Mary Eales",
+      "email": "mary@example.com",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "Hannah Glasse",
+      "email": "hannah@example.com"
+    }
+  ],
+  "orders": [
+    {
+      "customerId": 1,
+      "date": "2023-02-07",
+      "status": "unpaid",
+      "orderDescription": "vanilla 5",
+      "id": 1
+    },
+    {
+      "customerId": 2,
+      "date": "2023-03-09",
+      "status": "transit",
+      "orderDescription": "chocolate 4",
+      "id": 2
+    },
+    {
+      "customerId": 3,
+      "date": "2023-02-21",
+      "status": "delivered",
+      "orderDescription": "banana 7",
+      "id": 3
+    }
+  ]
+}

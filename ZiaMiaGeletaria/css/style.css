@@ -1,0 +1,29 @@
+/* Add more styling here */
+
+ul.items>li {
+    border: 1px solid green;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.item_properties {
+    /* border: 1px solid black; */
+}
+
+nav {
+    /* display: none; */
+    /*Temporarily */
+}
+
+form select {
+    width: 100%;
+}
+
+ul.errors {
+    color: red;
+}
+
+ul.errors li {
+    list-style: initial;
+}
